@@ -46,13 +46,13 @@ function generatePassword() {
   
   } else { 
     confirmLower = confirm("Will this contain lower case letters? Click OK to confirm.");
-    console.log("Lower case " + lowerConfirm);
+    console.log("Lower case " + confirmLower);
     confirmUpper = confirm("Will this contain upper case letters? Click OK to confirm.");
-    console.log("Upper case " + upperConfirm);
+    console.log("Upper case " + confirmUpper);
     confirmNumber = confirm("Will this contain numbers? Click OK to confirm.");
-    console.log("Number " + numberConfirm);
+    console.log("Number " + confirmNumber);
     confirmSpecial = confirm("Will this contain special characters? Click OK to confirm.");
-    console.log("Special Character " + specialConfirm);
+    console.log("Special Character " + confirmSpecial);
 
   };
 
